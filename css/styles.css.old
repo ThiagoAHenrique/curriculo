@@ -85,27 +85,6 @@
   box-sizing: border-box;
 }
 
-
-.social-icons {
-  display: flex;
-  justify-content: center; /* Alinha os ícones ao centro */
-}
-
-.social-icons a {
-  margin: 0 5px; /* Espaçamento padrão entre os ícones */
-}
-
-.second-row a {
-  margin: 0 15px; /* Espaçamento de 15px apenas na segunda fila */
-}
-
-.social-icons img {
-  max-width: 100px; /* Ajuste o tamanho das imagens */
-  height: auto;
-}
-
-
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
