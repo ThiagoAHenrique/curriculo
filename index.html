@@ -15,10 +15,60 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap) -->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            /* Customizando o menu na esquerda */
+            #sideNav {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 250px;
+                background-color: #343a40;
+            }
+            #sideNav ul {
+                padding: 0;
+                list-style: none;
+            }
+            #sideNav ul li {
+                padding: 10px 20px;
+            }
+            #sideNav ul li a {
+                color: white;
+                text-decoration: none;
+                display: block;
+                font-size: 1.2rem;
+            }
+            #sideNav ul li a:hover {
+                background-color: #495057;
+                border-radius: 5px;
+            }
+            .navbar-toggler {
+                margin: 10px;
+            }
+            .container-fluid {
+                margin-left: 250px; /* Alinhar o conteúdo ao lado do menu */
+            }
+            /* Responsividade para dispositivos móveis */
+            @media (max-width: 768px) {
+                #sideNav {
+                    width: 100%;
+                    height: auto;
+                    position: relative;
+                }
+                #sideNav ul {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .container-fluid {
+                    margin-left: 0;
+                }
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <nav class="navbar navbar-dark bg-primary" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">THIAGO HENRIQUE</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
@@ -99,17 +149,4 @@
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Metodologias Agile</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Microsoft Azure</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Terraform</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Docker</li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- Bootstrap core JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS -->
-        <script src="js/scripts.js"></script>
-    </body>
-</html>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></
