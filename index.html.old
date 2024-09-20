@@ -41,13 +41,14 @@
                         Thiago
                         <span class="text-primary">Henrique</span>
                     </h1>
-                    <div class="subheading mb-5">
-                        Analista de Infraestrutura
-                        </br>
-                        <a href="https://www.linkedin.com/in/thiagoahenrique/" target="_blank" style="color: #0077B5;">
-                            <i class="fab fa-linkedin fa-2x"></i>/thiagohenrique
-                        </a>
-                    </div>                                 
+                 <div class="subheading mb-5">
+    Analista de Infraestrutura
+    </br>
+    <a href="https://www.linkedin.com/in/thiagoahenrique/" target="_blank" style="color: #0077B5;">
+        <i class="fab fa-linkedin fa-2x"></i>/thiagohenrique
+    </a>
+</div>
+             
                     <p class="lead mb-5">
                         Com mais de 15 anos de experiência na área de tecnologia, sou formado em Redes de Computadores pela UCAM e Técnico em Administração de Redes e Suporte a Sistemas Operacionais e Hardware pelo Senac RJ (CFT ativo). Minha atuação abrange infraestrutura, telecomunicações, redes e segurança da informação.
                     </br></br>
@@ -59,8 +60,33 @@
                         </br></br>
                     </p>
                     <div class="social-icons">
-                        <img src="assets/img/icons1.jpg" alt="..." />
-                    </div>
+                        <a href="https://www.credly.com/badges/5dd7ce94-5c46-4835-b389-e2e8bc99080a/public_url" target="_blank">
+                            <img src="assets/img/icons1.jpg" alt="Badge 1" />
+                        </a>
+                        <a href="https://www.credly.com/badges/4e81039d-34a4-45f1-910f-0772cc511e09/public_url" target="_blank">
+                            <img src="assets/img/icons2.jpg" alt="Badge 2" />
+                        </a>
+                        <a href="https://www.credly.com/badges/846e7869-229b-41f8-b314-92f27c02a34b/public_url" target="_blank">
+                            <img src="assets/img/icons3.jpg" alt="Badge 3" />
+                        </a>
+                        <a href="https://www.credly.com/badges/cf171951-457e-4847-aada-5c701a7da232/public_url" target="_blank">
+                            <img src="assets/img/icons7.jpg" alt="Badge 4" />
+                        </a>
+                    </div> 
+                    <div class="social-icons">
+                        <a href="https://www.credly.com/badges/2e2275ee-6ac5-42aa-9e76-6dcf99c8a1e6/public_url" target="_blank">
+                            <img src="assets/img/icons4.jpg" alt="Badge 5" />
+                        </a>
+                        <a href="https://www.credly.com/badges/2a845765-cecd-448c-b152-ac291a8a7327/public_url" target="_blank">
+                            <img src="assets/img/icons5.jpg" alt="Badge 6" />
+                        </a>
+                        <a href="https://www.credly.com/badges/4b415f37-f724-4fee-88f3-430e9992f3eb/public_url" target="_blank">
+                            <img src="assets/img/icons6.jpg" alt="Badge 7" />
+                        </a>
+                        <a href="https://www.credly.com/badges/311c199e-9dc4-4639-998d-7ee3ad6a06d6/public_url" target="_blank">
+                            <img src="assets/img/icons8.png" alt="Badge 8" />
+                        </a>
+                    </div>                    
                 </div>
             </section>
             <hr class="m-0" />
@@ -103,7 +129,7 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Tools</div>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-github"></i></li>
