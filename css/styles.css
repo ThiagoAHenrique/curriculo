@@ -104,6 +104,10 @@
   height: auto;
 }
 
+.img-profile {
+  width: 100%; /* Faz a imagem ocupar toda a largura do container */
+  height: auto; /* Mantém a proporção da imagem */
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
