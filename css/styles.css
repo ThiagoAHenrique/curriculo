@@ -92,7 +92,7 @@
 }
 
 .social-icons a {
-  margin: 0 5px; /* Espaçamento padrão entre os ícones */
+  margin: 0 3px; /* Espaçamento padrão entre os ícones */
 }
 
 .second-row a {
@@ -100,7 +100,7 @@
 }
 
 .social-icons img {
-  max-width: 100px; /* Ajuste o tamanho das imagens */
+  max-width: 95px; /* Ajuste o tamanho das imagens */
   height: auto;
 }
 
