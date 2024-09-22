@@ -111,16 +111,16 @@
 
 /* Definindo o tamanho ideal para a imagem em dispositivos móveis */
 .img-profile-small {
-  width: 10px;  /* Largura de 80px para exibir como uma miniatura */
-  height: 10px; /* Altura de 80px */
+  width: 50px;  /* Largura de 80px para exibir como uma miniatura */
+  height: 50px; /* Altura de 80px */
   object-fit: cover; /* Garante que a imagem mantenha a proporção dentro do círculo */
 }
 
 /* Para telas ainda menores, pode ajustar o tamanho */
 @media (max-width: 480px) {
   .img-profile-small {
-      width: 10px;
-      height: 10px;
+      width: 50px;
+      height: 50px;
   }
 }
 
